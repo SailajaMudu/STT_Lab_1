@@ -30,3 +30,8 @@ jobs:
           echo "No Python files to lint."
         fi
 
+    - name: Run main.py
+      run: |
+        python main.py
+
+
